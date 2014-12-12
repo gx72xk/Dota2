@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+<<<<<<< HEAD
+=======
+entitygen.DEFAULT_PACKAGE=model
+>>>>>>> 621d5db566ffd76d342f2d41a5254b8f2f591ae7
+org.eclipse.jpt.core.platform=eclipselink2_5
+org.eclipse.jpt.jpa.core.discoverAnnotatedClasses=false

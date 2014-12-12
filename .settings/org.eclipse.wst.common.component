@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
+    <wb-module deploy-name="DotaRocks">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="DotaRocks"/>
+        <property name="java-output-path" value="/DotaRocks/build/classes"/>
+=======
+    <wb-module deploy-name="Dota2">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Dota2"/>
+        <property name="java-output-path" value="/Dota2/build/classes"/>
+>>>>>>> 621d5db566ffd76d342f2d41a5254b8f2f591ae7
+    </wb-module>
+</project-modules>

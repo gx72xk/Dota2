@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>DotaRocks</display-name>
+=======
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Dota2</display-name>
+>>>>>>> 621d5db566ffd76d342f2d41a5254b8f2f591ae7
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+<<<<<<< HEAD
+<servlet>
+<servlet-name>Jersey REST Service</servlet-name>
+<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+<init-param>
+<param-name>com.sun.jersey.config.property.packages</param-name>
+<param-value>rest</param-value>
+</init-param>
+<init-param>
+<param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+<param-value>true</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+<servlet-name>Jersey REST Service</servlet-name>
+<url-pattern>/rest/*</url-pattern>
+</servlet-mapping>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>dotaservlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginPage</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>dotaservlet.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutAction</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>searchMatchServlet</servlet-name>
+		<servlet-class>dotaservlet.searchMatchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>searchMatchServlet</servlet-name>
+		<url-pattern>/searchMatch</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>SearchPlayerServlet</servlet-name>
+		<servlet-class>dotaservlet.SearchPlayerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchPlayerServlet</servlet-name>
+		<url-pattern>/searchOverview</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>MyProfileServlet</servlet-name>
+		<servlet-class>dotaservlet.MyProfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyProfileServlet</servlet-name>
+		<url-pattern>/ProfileAction</url-pattern>
+	</servlet-mapping>
+			<servlet>
+		<servlet-name>ArticleServlet</servlet-name>
+		<servlet-class>dotaservlet.ArticleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ArticleServlet</servlet-name>
+		<url-pattern>/ArticleAction</url-pattern>
+	</servlet-mapping>
+				<servlet>
+		<servlet-name>ReplayServlet</servlet-name>
+		<servlet-class>dotaservlet.ReplayServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReplayServlet</servlet-name>
+		<url-pattern>/ReplayAction</url-pattern>
+	</servlet-mapping>
+</web-app>
+=======
+  <servlet>
+    <servlet-name>Jersey REST Service</servlet-name>
+    <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+    <init-param>
+      <param-name>com.sun.jersey.config.property.packages</param-name>
+      <param-value>rest</param-value>
+    </init-param>
+	<init-param>
+		<param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+		<param-value>true</param-value>
+	</init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jersey REST Service</servlet-name>
+    <url-pattern>/rest/*</url-pattern>
+  </servlet-mapping>
+</web-app>
+
+
+>>>>>>> 621d5db566ffd76d342f2d41a5254b8f2f591ae7
